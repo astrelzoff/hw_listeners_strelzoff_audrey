@@ -35,6 +35,9 @@ Google fonts
 https://fonts.google.com/specimen/Montserrat
 Montserrat
 
+https://fonts.google.com/specimen/Permanent+Marker
+Permanent Marker
+
 https://upload.wikimedia.org/wikipedia/commons/1/17/Wikipedia-logo-it-bw-big.png
 Wikipedia logo png image
 
