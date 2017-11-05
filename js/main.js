@@ -64,7 +64,7 @@ var colorize1 = document.getElementById('foot1');
 // add event listener for mouse enter to colorize1 and invoke a function to
 // change the innerHTML to a color image
 colorize1.addEventListener('mouseenter', function () {
-    colorize1.innerHTML = '<img src="img/google_color.png" alt="Google logo">';
+    colorize1.innerHTML = '<a href="https://www.google.com/search?q=bees&oq=bees&aqs=chrome..69i57j0l5.657j0j8&sourceid=chrome&ie=UTF-8" target="_blank"><img src="img/google_color.png" alt="Wikipedia logo"></a>';
 });
 // add event listener for mouse leave to colorize1 and invoke a function to
 // change the innerHTML to a white image
@@ -74,7 +74,7 @@ colorize1.addEventListener('mouseleave', function () {
 // same as above
 var colorize2 = document.getElementById('foot2');
 colorize2.addEventListener('mouseenter', function () {
-    colorize2.innerHTML = '<img src="img/wiki_color.png" alt="Wikipedia logo">';
+    colorize2.innerHTML = '<a href="https://en.wikipedia.org/wiki/Bee" target="_blank"><img src="img/wiki_color.png" alt="Wikipedia logo"></a>';
 });
 // same as above
 colorize2.addEventListener('mouseleave', function () {
@@ -83,7 +83,7 @@ colorize2.addEventListener('mouseleave', function () {
 // same as above
 var colorize3 = document.getElementById('foot3');
 colorize3.addEventListener('mouseenter', function () {
-    colorize3.innerHTML = '<img src="img/pixabay_color.png" alt="Pixabay logo">';
+    colorize3.innerHTML = '<a href="https://pixabay.com/en/videos/rose-orange-bees-hard-working-3903/" target="_blank"><img src="img/pixabay_color.png" alt="Pixabay logo"></a>';
 });
 // same as above
 colorize3.addEventListener('mouseleave', function () {
