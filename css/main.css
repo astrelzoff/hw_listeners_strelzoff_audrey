@@ -31,6 +31,10 @@ main h2 {
     text-align: center;
 }
 
+.jazzedColor {
+    color: #ff580e;
+}
+
 video {
     width: 100%;
 }
