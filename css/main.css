@@ -5,7 +5,7 @@ header {
     height: 100px;
 }
 
-header p {
+header h1 {
     font-family: 'Permanent Marker', cursive;
     color: rgba(255, 255, 255, 0.7);
     text-align: center;
@@ -16,6 +16,25 @@ header p {
     margin: 0 10%;
 }
 
+main {
+    width: 90%;
+    margin: auto;
+    max-width: 1000px;
+    margin-bottom: 100px;
+    padding-bottom: 5%;
+    color: #1e1716;
+}
+
+main h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+video {
+    width: 100%;
+}
+
 footer {
     background-color: #1e1716;
     width: 100%;
@@ -24,14 +43,25 @@ footer {
     bottom: 0;
 }
 
-main {
-    width: 90%;
+footer ul {
+    list-style-type: none;
+    width: 72%;
+    padding: 5% 0;
     margin: auto;
-    max-width: 1000px;
-    margin-bottom: 100px;
-    padding-bottom: 5%;
 }
 
-video {
+footer ul li {
+    display: inline-block;
+    width: calc(83% / 3);
+    padding: 2%;
+    margin: auto;
+
+}
+
+footer ul li img {
+    display: block;
     width: 100%;
+    margin: auto;
+    max-width: 60px;
+    opacity: 0.7;
 }
