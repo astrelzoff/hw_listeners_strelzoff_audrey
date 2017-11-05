@@ -8,3 +8,53 @@ html {
 *::after {
     box-sizing: inherit;
 }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: lavender;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+form {
+    margin: 10% auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    max-width: 500px;
+    padding: 5%;
+}
+
+h1 {
+    color: #666666;
+}
+
+label {
+    display: block;
+    width: 100%;
+    font-size: 0.7rem;
+    color: #999999;
+}
+
+input,
+textarea {
+    width: 100%;
+}
+
+[type="submit"] {
+    width: 35%;
+    position: relative;
+    right: 0;
+    left: 65%;
+    background-color: #8464b4;
+    border: 1px solid #8464b4;
+    color: white;
+    padding: 1% 0;
+}
+
+[type="submit"]:hover {
+    background-color: white;
+    color: #8464b4;
+}
