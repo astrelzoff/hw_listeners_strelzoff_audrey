@@ -25,6 +25,7 @@ form {
     width: 100%;
     max-width: 500px;
     padding: 5%;
+    box-shadow: 2px 2px 8px #999999;
 }
 
 h1 {
