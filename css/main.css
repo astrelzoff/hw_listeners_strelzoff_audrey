@@ -50,6 +50,18 @@ video {
     width: 100%;
 }
 
+#beeD {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+#beeD img {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
 footer {
     background-color: #1e1716;
     width: 100%;

@@ -32,3 +32,12 @@ player.addEventListener('mouseout', function () {
 });
 // I had the mouseenter and mouseleave working beautifully in firefox but
 // it would throw an error in chrome, so this is what I settled on
+
+
+// EVENT 4: Insert photo into empty paragraph on link click
+var addBees = document.getElementById('b1');
+var modP = document.getElementById('beeD');
+
+addBees.addEventListener('click', function () {
+    modP.innerHTML = '<img src="img/bees.jpg" alt="Bees">';
+});
