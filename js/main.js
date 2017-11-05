@@ -44,13 +44,13 @@ var modP = document.getElementById('beeD');
 addBees.addEventListener('click', function () {
     modP.innerHTML = '<img src="img/bees.jpg" alt="Bees">';
 });
-
+// same as above
 var addHoney = document.getElementById('b2');
 var modP2 = document.getElementById('beeD');
 addHoney.addEventListener('click', function () {
     modP2.innerHTML = '<img src="img/honey.jpg" alt="Honey">';
 });
-
+// same as above
 var addWax = document.getElementById('b3');
 var modP3 = document.getElementById('beeD');
 addWax.addEventListener('click', function () {
@@ -59,3 +59,33 @@ addWax.addEventListener('click', function () {
 
 
 //EVENT 5: Change color of image by changing opacity on mouseover
+// Create global variable colorize and set to the link id foot1
+var colorize1 = document.getElementById('foot1');
+// add event listener for mouse enter to colorize1 and invoke a function to
+// change the innerHTML to a color image
+colorize1.addEventListener('mouseenter', function () {
+    colorize1.innerHTML = '<img src="img/google_color.png" alt="Google logo">';
+});
+// add event listener for mouse leave to colorize1 and invoke a function to
+// change the innerHTML to a white image
+colorize1.addEventListener('mouseleave', function () {
+    colorize1.innerHTML = '<img src="img/google_white.png" alt="Google logo">';
+});
+// same as above
+var colorize2 = document.getElementById('foot2');
+colorize2.addEventListener('mouseenter', function () {
+    colorize2.innerHTML = '<img src="img/wiki_color.png" alt="Wikipedia logo">';
+});
+// same as above
+colorize2.addEventListener('mouseleave', function () {
+    colorize2.innerHTML = '<img src="img/wiki_white.png" alt="Wikipedia logo">';
+});
+// same as above
+var colorize3 = document.getElementById('foot3');
+colorize3.addEventListener('mouseenter', function () {
+    colorize3.innerHTML = '<img src="img/pixabay_color.png" alt="Pixabay logo">';
+});
+// same as above
+colorize3.addEventListener('mouseleave', function () {
+    colorize3.innerHTML = '<img src="img/pixabay_white.png" alt="Pixabay logo">';
+});
