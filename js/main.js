@@ -35,9 +35,27 @@ player.addEventListener('mouseout', function () {
 
 
 // EVENT 4: Insert photo into empty paragraph on link click
+// Create global variable addBees and set to the link id b1
 var addBees = document.getElementById('b1');
+// Create a global variable modP and set to the empty div
 var modP = document.getElementById('beeD');
-
+// Attach a listener to addBees to hear a click and insert the bees image
+// into the empty div
 addBees.addEventListener('click', function () {
     modP.innerHTML = '<img src="img/bees.jpg" alt="Bees">';
 });
+
+var addHoney = document.getElementById('b2');
+var modP2 = document.getElementById('beeD');
+addHoney.addEventListener('click', function () {
+    modP2.innerHTML = '<img src="img/honey.jpg" alt="Honey">';
+});
+
+var addWax = document.getElementById('b3');
+var modP3 = document.getElementById('beeD');
+addWax.addEventListener('click', function () {
+    modP3.innerHTML = '<img src="img/wax.jpg" alt="Beeswaxy">';
+});
+
+
+//EVENT 5: Change color of image by changing opacity on mouseover
