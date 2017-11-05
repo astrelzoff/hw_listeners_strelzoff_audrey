@@ -56,6 +56,8 @@
 
 * [Mozilla JavaScript Events Reference](https://developer.mozilla.org/en-US/docs/Web/Events)
 
+* I also used my notes on the Richard Kalehoff videos we have viewed
+
 ## 3. Deductions
 * I reviewed the list of deductions for this project and in the syllabus.
 
