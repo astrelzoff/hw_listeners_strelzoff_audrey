@@ -46,3 +46,6 @@ Pixabay logo png
 
 https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2000px-Google_%22G%22_Logo.svg.png
 Google png logo
+
+https://codepen.io/tylerama/pen/nLFHt
+Hints on adding and removing a class with JavaScript
