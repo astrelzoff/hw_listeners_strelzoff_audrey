@@ -1,3 +1,14 @@
+/* Set all box sizing to border-box */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 header {
     display: block;
     background-image: url("../img/banner.jpg");

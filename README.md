@@ -49,3 +49,9 @@ Google png logo
 
 https://codepen.io/tylerama/pen/nLFHt
 Hints on adding and removing a class with JavaScript
+
+https://msdn.microsoft.com/en-us/library/hh924823(v=vs.85).aspx
+Hints on controlling the HTML5 video player with JavaScript
+
+https://developer.mozilla.org/en-US/docs/Web/Events
+List of JavaScript events reference
