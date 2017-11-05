@@ -1,0 +1,29 @@
+/* Set all box sizing to border-box */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Monteserrat', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    width: 200px;
+    margin: 10% auto;
+    text-align: center;
+    background-color: gray;
+    border: 1px solid gray;
+    color: white;
+}
+
+h1:hover {
+    background-color: white;
+    color: gray;
+}
